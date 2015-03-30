@@ -1,7 +1,8 @@
 # json-svg-icons
 
-> My unreal module
+A set of SVG icons in JSON format. Very useful when building React apps, since this allows you to programatically update any part of the icon, tweak size, stroke, fill, animations etc...
 
+Look in [`src/demo.jsx`](https://github.com/hull/json-svg-icons/blob/master/src/demo.jsx) for example usage
 
 ## Install
 
@@ -25,28 +26,6 @@ or individually:
 ```js
 var facebook = require('json-svg-icons/dist/facebook.json');
 ```
-
-
-## API
-
-### reactSvgIcons(input, [options])
-
-#### input
-
-*Required*  
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
-
 
 ## License
 
