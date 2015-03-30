@@ -102,7 +102,7 @@ module.exports = {
   "soundcloud": require("./soundcloud.json"),
   "source": require("./source.json"),
   "star": require("./star.json"),
-  "stats": require("./stats.json"),
+  "stat": require("./stat.json"),
   "stop": require("./stop.json"),
   "table": require("./table.json"),
   "tag": require("./tag.json"),
