@@ -1,4 +1,4 @@
-# react-svg-icons [![Build Status](https://travis-ci.org/hull/react-svg-icons.svg?branch=master)](https://travis-ci.org/hull/react-svg-icons)
+# json-svg-icons
 
 > My unreal module
 
@@ -6,17 +6,24 @@
 ## Install
 
 ```
-$ npm install --save react-svg-icons
+$ npm install --save json-svg-icons
 ```
 
 
 ## Usage
 
 ```js
-var reactSvgIcons = require('react-svg-icons');
+var reactSvgIcons = require('json-svg-icons');
+reactSvgIcons;
+//=> {
+//      facebook:...,
+//      twitter:...,
+//}
+```
 
-reactSvgIcons('unicorns');
-//=> unicorns & rainbows
+or individually: 
+```js
+var facebook = require('json-svg-icons/dist/facebook.json');
 ```
 
 
