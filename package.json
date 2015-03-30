@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A collection of SVG icons in JSON format, handy when using React",
   "license": "MIT",
-  "main": "dist/icons.js",
+  "main": "dist/index.js",
   "repository": "hull/json-svg-icons",
   "author": {
     "name": "Romain Dardour",
