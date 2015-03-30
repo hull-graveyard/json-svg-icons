@@ -1,0 +1,81 @@
+[
+  "svg",
+  {
+    "viewBox": "0 0 48 48"
+  },
+  [
+    "title",
+    "trash"
+  ],
+  [
+    "desc",
+    "Created with Sketch."
+  ],
+  [
+    "defs"
+  ],
+  [
+    "g",
+    {
+      "id": "Icons",
+      "stroke": "none",
+      "fill": "none"
+    },
+    [
+      "g",
+      {
+        "id": "trash",
+        "stroke": "#231F1F"
+      },
+      [
+        "g",
+        {
+          "id": "Group",
+          "transform": "translate(1.000000, 1.000000)"
+        },
+        [
+          "path",
+          {
+            "id": "Stroke-154",
+            "d": "M40,46 L6,46 L6,6 L40,6 L40,46 Z"
+          }
+        ],
+        [
+          "path",
+          {
+            "id": "Stroke-155",
+            "d": "M32,6 L14,6 L14,0 L32,0 L32,6 Z"
+          }
+        ],
+        [
+          "path",
+          {
+            "id": "Stroke-156",
+            "d": "M0,6 L46,6"
+          }
+        ],
+        [
+          "path",
+          {
+            "id": "Stroke-157",
+            "d": "M14,14 L14,37"
+          }
+        ],
+        [
+          "path",
+          {
+            "id": "Stroke-158",
+            "d": "M23,14 L23,37"
+          }
+        ],
+        [
+          "path",
+          {
+            "id": "Stroke-159",
+            "d": "M32,13 L32,36"
+          }
+        ]
+      ]
+    ]
+  ]
+]

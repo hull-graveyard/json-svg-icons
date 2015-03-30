@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>ol</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="ol" sketch:type="MSLayerGroup" stroke="#231F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <g id="Group" transform="translate(1.000000, 5.000000)" sketch:type="MSShapeGroup">
+                <path d="M12,4 L46,4" id="Stroke-6915"></path>
+                <path d="M12,20 L46,20" id="Stroke-6916"></path>
+                <path d="M12,36 L46,36" id="Stroke-6917"></path>
+                <path d="M3,8 L3,0.146 L0,3.073" id="Stroke-6918"></path>
+                <path d="M4,24 L-0.139,24 C2.821,20 3.861,20.327 3.861,18.073 C3.861,16.969 2.963,16.109 1.861,16.109 C0.755,16.109 -0.069,16.951 -0.069,18.055" id="Stroke-6919"></path>
+                <path d="M0,32 L3.861,32 L1.861,35.073 C3.514,35.073 3.861,36.036 3.861,37.036 C3.861,38.036 3.514,39 1.861,39 L0,39" id="Stroke-6920"></path>
+            </g>
+        </g>
+    </g>
+</svg>

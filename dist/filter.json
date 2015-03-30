@@ -1,0 +1,45 @@
+[
+  "svg",
+  {
+    "viewBox": "0 0 48 48"
+  },
+  [
+    "title",
+    "filter"
+  ],
+  [
+    "desc",
+    "Created with Sketch."
+  ],
+  [
+    "defs"
+  ],
+  [
+    "g",
+    {
+      "id": "Icons",
+      "stroke": "none",
+      "fill": "none"
+    },
+    [
+      "g",
+      {
+        "id": "filter",
+        "stroke": "#231F1F"
+      },
+      [
+        "g",
+        {
+          "id": "Stroke-6042",
+          "transform": "translate(1.000000, 1.000000)"
+        },
+        [
+          "path",
+          {
+            "d": "M46,0 L0,0 L20,24.182 L20,46 L26,40 L26,24.182 L46,0 L46,0 Z"
+          }
+        ]
+      ]
+    ]
+  ]
+]

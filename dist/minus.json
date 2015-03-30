@@ -1,0 +1,39 @@
+[
+  "svg",
+  {
+    "viewBox": "0 0 48 48"
+  },
+  [
+    "title",
+    "minus"
+  ],
+  [
+    "desc",
+    "Created with Sketch."
+  ],
+  [
+    "defs"
+  ],
+  [
+    "g",
+    {
+      "id": "Icons",
+      "stroke": "none",
+      "fill": "none"
+    },
+    [
+      "g",
+      {
+        "id": "minus",
+        "stroke": "#231F1F"
+      },
+      [
+        "path",
+        {
+          "id": "Stroke-3750",
+          "d": "M46.999,24.044 L1,24"
+        }
+      ]
+    ]
+  ]
+]

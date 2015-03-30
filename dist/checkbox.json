@@ -1,0 +1,60 @@
+[
+  "svg",
+  {
+    "viewBox": "0 0 36 36"
+  },
+  [
+    "title",
+    "checkbox"
+  ],
+  [
+    "description",
+    "Created with Sketch."
+  ],
+  [
+    "defs"
+  ],
+  [
+    "g",
+    {
+      "id": "24",
+      "stroke": "none",
+      "fill": "none"
+    },
+    [
+      "g",
+      {
+        "id": "Icons",
+        "stroke": "#0093E6",
+        "transform": "translate(-280.000000, 0.000000)"
+      },
+      [
+        "g",
+        {
+          "id": "checkbox",
+          "transform": "translate(280.000000, 0.000000)"
+        },
+        [
+          "g",
+          {
+            "transform": "translate(1.000000, 1.000000)"
+          },
+          [
+            "path",
+            {
+              "id": "Stroke-3521",
+              "d": "M34,0 L13.7619048,25.0952381 L5.66666667,17"
+            }
+          ],
+          [
+            "path",
+            {
+              "id": "Stroke-3522",
+              "d": "M29.1428571,15.3809524 L29.1428571,33.1904762 L0,33.1904762 L0,4.04761905 L21.047619,4.04761905"
+            }
+          ]
+        ]
+      ]
+    ]
+  ]
+]

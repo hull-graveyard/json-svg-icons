@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="phone" sketch:type="MSLayerGroup" stroke="#231F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <g id="Stroke-746" transform="translate(2.000000, 2.000000)" sketch:type="MSShapeGroup">
+                <path d="M16.1708,12.8037 C17.9768,10.9967 17.9768,8.0687 16.1708,6.2617 L11.2638,1.3557 C9.4578,-0.4513 6.5288,-0.4513 4.7208,1.3557 L2.0308,4.0467 C-0.3042,6.3807 -0.6652,10.0237 1.1548,12.7777 C8.9738,24.5977 19.4038,35.0267 31.2238,42.8447 C33.9718,44.6617 37.6248,44.2997 39.9538,41.9697 L42.6448,39.2787 C44.4518,37.4717 44.4518,34.5427 42.6448,32.7367 L37.7388,27.8297 C35.9328,26.0237 33.0038,26.0237 31.1958,27.8297 L29.5608,29.4647 C24.1808,25.0557 18.9438,19.8197 14.5358,14.4387 L16.1708,12.8037 L16.1708,12.8037 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

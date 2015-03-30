@@ -1,0 +1,47 @@
+[
+  "svg",
+  {
+    "viewBox": "0 0 36 36"
+  },
+  [
+    "title",
+    "click"
+  ],
+  [
+    "desc",
+    "Created with Sketch."
+  ],
+  [
+    "defs"
+  ],
+  [
+    "g",
+    {
+      "id": "24",
+      "stroke": "none",
+      "fill": "none"
+    },
+    [
+      "g",
+      {
+        "id": "Icons",
+        "stroke": "#0093E6",
+        "transform": "translate(-40.000000, -462.000000)"
+      },
+      [
+        "g",
+        {
+          "id": "click",
+          "transform": "translate(40.000000, 462.000000)"
+        },
+        [
+          "path",
+          {
+            "id": "Stroke-580",
+            "d": "M22,18 L29,11 L1,1 L11,29 L18,22 L31,35 L35,31 L22,18 L22,18 Z"
+          }
+        ]
+      ]
+    ]
+  ]
+]

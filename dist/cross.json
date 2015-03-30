@@ -1,0 +1,53 @@
+[
+  "svg",
+  {
+    "viewBox": "0 0 48 48"
+  },
+  [
+    "title",
+    "cross"
+  ],
+  [
+    "desc",
+    "Created with Sketch."
+  ],
+  [
+    "defs"
+  ],
+  [
+    "g",
+    {
+      "id": "Icons",
+      "stroke": "none",
+      "fill": "none"
+    },
+    [
+      "g",
+      {
+        "id": "cross",
+        "stroke": "#231F1F"
+      },
+      [
+        "g",
+        {
+          "id": "Stroke-3751-+-Stroke-3752",
+          "transform": "translate(1.000000, 1.000000)"
+        },
+        [
+          "path",
+          {
+            "id": "Stroke-3751",
+            "d": "M46.0447,0.0442 L-0.0443,45.9562"
+          }
+        ],
+        [
+          "path",
+          {
+            "id": "Stroke-3752",
+            "d": "M45.9561,46.0442 L0.0451,-0.0438"
+          }
+        ]
+      ]
+    ]
+  ]
+]

@@ -1,0 +1,47 @@
+[
+  "svg",
+  {
+    "viewBox": "0 0 36 36"
+  },
+  [
+    "title",
+    "arrow_right"
+  ],
+  [
+    "description",
+    "Created with Sketch."
+  ],
+  [
+    "defs"
+  ],
+  [
+    "g",
+    {
+      "id": "24",
+      "stroke": "none",
+      "fill": "none"
+    },
+    [
+      "g",
+      {
+        "id": "Icons",
+        "stroke": "#0093E6",
+        "transform": "translate(-40.000000, -160.000000)"
+      },
+      [
+        "g",
+        {
+          "id": "arrow_right",
+          "transform": "translate(40.000000, 160.000000)"
+        },
+        [
+          "path",
+          {
+            "id": "Stroke-43",
+            "d": "M9,35 L28.4287826,18 L9,1"
+          }
+        ]
+      ]
+    ]
+  ]
+]
