@@ -14,6 +14,24 @@ var notify = function(message){
   notifier.notify({title: config.displayName+" Gulp",message:message});
 };
 
+// Raise errors on Webpack build errors
+var webpackFeedbackHandler = function(err, stats){
+  handleError(err);
+
+  var jsonStats = stats.toJson();
+
+  if(jsonStats.errors.length > 0){
+    gutil.log("[webpack:build:error]", JSON.stringify(jsonStats.errors));
+    throw new gutil.PluginError("webpack:build:error", JSON.stringify(jsonStats.errors));
+  }
+
+  // Don't throw an error here : Uglify uses a lot of warnings to mention stripped code
+  if(jsonStats.warnings.length > 0){
+    gutil.log("[webpack:build:warning]", JSON.stringify(jsonStats.warnings,null,2));
+  }
+};
+
+
 // Handle Gulp Errors
 var handleError = function(err, taskName){
   if(err){
@@ -66,6 +84,22 @@ gulp.task("icons:watch", function(){
 });
 
 var webpackDevCompiler = webpack(webpackConfig.development.browser);
+
+//Production Build.
+//Minified, clean code. No demo keys inside.
+//demo.html WILL NOT WORK with this build.
+//
+//Webpack handles CSS/SCSS, JS, and HTML files.
+gulp.task("webpack:build", function(callback) {
+  // Then, use Webpack to bundle all JS and html files to the destination folder
+  notify("Building App");
+  webpack(_.values(webpackConfig.production), function(err, stats) {
+    var feedback = webpackFeedbackHandler(err,stats);
+    gutil.log("[webpack:build]", stats.toString({colors: true}));
+    notify({message:"App Built"});
+    callback(feedback);
+  });
+});
 
 // Launch webpack dev server.
 gulp.task("webpack:server", function() {

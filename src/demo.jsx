@@ -37,7 +37,6 @@ var icons = _.reduce(Icons, function(memo, icon, name){
     render(){
       var size  = this.props.size;
       var color = this.props.color||this.props.settings.light_color||"currentColor";
-      console.log(this.props)
       // Apply some values to the root tag
       icon[1] = assign(icon[1],{
         width: `${size}`,
@@ -58,7 +57,7 @@ var App = React.createClass({
     var rainbows = getRainbow(_.size(icons));
     var i = 0;
     var reactIcons  = _.map(icons, (Icon)=>{
-      return <Icon style={{color: rainbows[i++]}} {...this.props}/>;
+      return <Icon style={{color: rainbows[i++], marginRight:10}} {...this.props}/>;
     });
     return <div>{reactIcons}</div>;
   }

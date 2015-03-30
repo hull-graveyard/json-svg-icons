@@ -14,7 +14,7 @@ var assetsFolder = "";
 var serverPort   = process.env.PORT||8081;
 var previewUrl   = "http://localhost:"+serverPort;
 
-var hotReload = true;
+var hotReload = false;
 
 // DO NOT CHANGE SHIP ENTRY
 // WITHOUT UPDATING PACKAGE.JSON TOO
@@ -76,7 +76,7 @@ var loaders = [
   {test: /\.json$/,                loaders: ["json-loader"] },
   {test: /\.js$/,                  loaders: ["babel-loader"], exclude: /node_modules|bower_components/},
   {test: /\.jsx$/,                 loaders: ["react-hot", "babel-loader"], exclude: /node_modules/},
-  {test: /\.(css|scss)$/,          loaders: ["style/useable", "css-loader", "autoprefixer-loader?browsers=last 2 version", "sass-loader?outputStyle=expanded&"+cssIncludes]},
+  {test: /\.(css|scss)$/,          loaders: ["style", "file-loader"]},
   {test: /\.jpe?g$|\.gif$|\.png$/, loaders: ["file"]},
   {test: /\.svg$|\.woff$|\.ttf$|\.wav$|\.mp3$/, loader: "file" },
 ];
